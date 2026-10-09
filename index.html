@@ -181,13 +181,13 @@ footer p { font-size:12px; color:#5a6b85; }
 <header>
   <div class="sys-tag">XINDU CLOUD · INTELLIGENT BID RADAR</div>
   <h1>新都招投标信息汇总</h1>
-  <div class="subtitle">数据周期：<b>2026-09-26 至 2026-10-09</b>（近两周）&nbsp;|&nbsp;关键词智能筛选：交换机 · 通信 · 网络 · 等保 · 云计算 · 大数据 · 5G · 网络安全 · 云安全 · 边缘计算 等18类</div>
+  <div class="subtitle">数据周期：<b>2026-09-18 至 2026-10-09</b>（近两周）&nbsp;|&nbsp;关键词智能筛选：交换机 · 通信 · 网络 · 等保 · 云计算 · 大数据 · 5G · 网络安全 · 云安全 · 边缘计算 等18类</div>
 </header>
 
 <div class="stats">
   <div class="stat"><div class="num" id="s-total">0</div><div class="label">信息总数</div></div>
   <div class="stat"><div class="num" id="s-zb">0</div><div class="label">招标公告</div></div>
-  <div class="stat"><div class="num" id="s-zg">0</div><div class="label">中标 / 合同公示</div></div>
+  <div class="stat"><div class="num" id="s-zg">0</div><div class="label">中标 / 合同 / 采购意向</div></div>
   <div class="stat"><div class="num" id="s-org">0</div><div class="label">客户单位</div></div>
 </div>
 
@@ -244,7 +244,27 @@ const DATA = [
    org:"西南石油大学", type:"招标公告", typeClass:"zb", date:"2026-09-28",
    summary:"西南石油大学保卫处监控设备采购项目，涉及校园网络监控系统建设，预算180万元，投标截止时间10月23日。",
    source:"客户官网-西南石油大学", url:"https://www.ccgp-sichuan.gov.cn/maincms-web/article?id=8a69c2a3a0c3e92901a0ccf9d0a07fc3",
-   keys:["监控","网络"]}
+   keys:["监控","网络"]},
+  {title:"西南石油大学2026年政府采购意向公开（第27批）",
+   org:"西南石油大学", type:"采购意向", typeClass:"yx", date:"2026-09-23",
+   summary:"西南石油大学2026年OA系统采购项目、西南石油大学2026年行政楼会议室无纸化会议系统采购项目采购意向公开。",
+   source:"客户官网-西南石油大学", url:"https://www.ccgp-sichuan.gov.cn/maincms-web/article?type=article&id=8a69f760a0cb857501a0cc671ccc3cc1",
+   keys:["OA系统","无纸化会议"]},
+  {title:"成都市新都区第二人民医院监控及会议系统设施维保服务采购项目（二次）中标结果公示",
+   org:"成都市新都区第二人民医院", type:"中标结果", typeClass:"zg", date:"2026-09-22",
+   summary:"新都区第二人民医院监控及会议系统设施维保服务采购（二次）中标结果公示，中标单位为成都佳业晳睿网络工程有限公司，中标金额5.28万元。",
+   source:"千里马", url:"https://www.qianlima.com/bid-633676541.html",
+   keys:["监控","维保"]},
+  {title:"成都市新都区融媒体中心（成都市新都区广播电视台）网络安全服务采购项目成交公告",
+   org:"成都市新都区融媒体中心", type:"中标结果", typeClass:"zg", date:"2026-09-18",
+   summary:"新都区融媒体中心网络安全服务采购项目成交公告，涉及网络安全防护体系部署。",
+   source:"千里马", url:"https://www.qianlima.com/bid-632419874.html",
+   keys:["网络安全"]},
+  {title:"西南石油大学2026年政府采购意向公开（第26批）",
+   org:"西南石油大学", type:"采购意向", typeClass:"yx", date:"2026-09-18",
+   summary:"西南石油大学2026年全重室光纤交换机采购项目、西南石油大学2026年数据中心服务器采购项目采购意向公开。",
+   source:"客户官网-西南石油大学", url:"https://www.ccgp-sichuan.gov.cn/maincms-web/article?type=article&id=8a69d0d5a0b1d38401a0b374a14766e3",
+   keys:["交换机","数据中心"]}
 ];
 
 /* 高亮关键词 */
